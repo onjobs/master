@@ -131,7 +131,7 @@ function auto_safeconvert() {
         }
         if (a_to_vh == false) {
             var encryptedUrl = Base64.encode(a_to_vi);
-            a_to_ve[i].href = "https://nawarsoft/safelink?url=" + encryptedUrl;
+            a_to_ve[i].href = "https://nawarsoft/safelink.html?url=" + encryptedUrl;
             a_to_ve[i].rel = "nofollow";
             a_to_vb++;
             a_to_vc += i + ":::" + a_to_ve[i].href + "\n";
@@ -149,7 +149,7 @@ function auto_safeconvert() {
  
 function a_to_fa() {
     var a_to_vf = new Array();
-    protected_links = protected_links.replace("funcinema.ga", "facebook.com", "twitter.com");
+    protected_links = protected_links.replace("funcinema.ga", "izzasalmi.net", "facebook.com", "twitter.com");
     a_to_vf = protected_links.split(",");
     return a_to_vf;
 }
